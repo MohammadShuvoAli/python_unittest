@@ -7,7 +7,7 @@ class Test(unittest.TestCase):
         driver.get("https://www.google.com/")
 
         page_title = driver.title
-        self.assertEqual("Google", page_title, "Page Title Same!!!")
+        self.assertNotEqual("google", page_title, "Page Title Not Same!!!")
 
 
 if __name__ == "__main__":
