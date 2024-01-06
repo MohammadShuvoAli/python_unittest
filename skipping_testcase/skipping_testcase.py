@@ -18,11 +18,11 @@ class AppTesting(unittest.TestCase):
     def test_postpaidreachrge(self):
         print("This is post—paid recharge")
 
-    def test_loginbygamil(self):
-        print("This is login by email")
+    def test_signupbygamil(self):
+        print("This is signup by email")
 
-    def test_loginbytwitter(self):
-        print("This is login by twitter")
+    def test_signupbytwitter(self):
+        print("This is signup by twitter")
 
 if __name__ == "__main__":
     unittest.main()

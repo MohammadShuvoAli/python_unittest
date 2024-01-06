@@ -13,7 +13,7 @@ class AppTesting(unittest.TestCase):
 
     @classmethod
     def setUp(self):  # execute before all test methods
-        print("This is login test")
+        print("This is signup test")
 
     @classmethod
     def tearDown(self):  # Execute after all test methods
